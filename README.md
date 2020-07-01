@@ -4,7 +4,7 @@ Specific programming language practice demo code.
 
 There are so many programming languages, this repo is used for tracking daily practice.
 
-# Structure
+# structure
 
 - java
   
