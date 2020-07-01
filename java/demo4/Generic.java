@@ -5,6 +5,12 @@ import java.util.List;
 
 class Generic {
     public static void main(String[] args) {
+        /**
+         * 可以理解为: Bag<? extends Fruite> 是 Bag<Fruite>/Bag<Apple>/Bag<Banana> 的父类.
+         * 
+         * 泛型中有一个类型捕获(type capture)的概念, Bag<? extends Fruite> 是一个新的 capture 类型,
+         * 这点对于理解类型 mismatch 等问题很有帮助.
+         */
         List<Bag<? extends Fruite>> f = new ArrayList<>();
         f.add(new Bag<Fruite>(new Fruite()));
         f.add(new Bag<Apple>(new Apple()));
