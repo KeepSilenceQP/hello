@@ -11,7 +11,7 @@ public class Hello {
         // 有意思的是, 在 jvm 层, lambda 表达式是通过类内部方法实现的,
         // 也就是说, 表达式内部的 this 和匿名内部类并没有什么关系.
         IPrinter p = s -> {
-            if (s.isEmpty() || null == s) {
+            if (null == s || s.isEmpty()) {
                 return false;
             }
             System.out.println(s);
