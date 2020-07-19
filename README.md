@@ -6,6 +6,10 @@ There are so many programming languages, this repo is used for tracking daily pr
 
 ## structure
 
+- groovy
+
+  - test.groovy learn groovy for gradle.
+
 - java
   
   - demo1 functional interface, lambda expression basic use.
