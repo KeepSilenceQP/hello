@@ -1,3 +1,7 @@
+// cargo clean
+// cargo build
+// cargo run
+
 fn main() {
     println!("Hello World!");
 
