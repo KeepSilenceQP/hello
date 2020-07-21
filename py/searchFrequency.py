@@ -11,8 +11,11 @@ class SearchFrequency:
     def __repr__(self):
         return 'scene:' + self.scene + ' pv:' + str(self.pv) + ' uv:' + self.uv
 
+# book = xlrd.open_workbook(
+    # '/Users/bytedance/Downloads/演练/7-20 演练/25807000-编辑框1-查询3.xlsx')
+
 book = xlrd.open_workbook(
-    '/Users/bytedance/Downloads/演练/7-20 演练/25807000-编辑框1-查询3.xlsx')
+    '/Users/bytedance/Downloads/演练/7-20 演练/25853944-编辑框1-查询4.xlsx')
 
 # for sheet in book.sheets():
 #     print(sheet.name)

@@ -28,6 +28,8 @@ There are so many programming languages, this repo is used for tracking daily pr
   
   - findTarget.py read line from file & parse json data.
 
+  - searchFrequency.py python class test.
+
 - rust
   
   - demo1 say hello & function grammar.
