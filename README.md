@@ -30,6 +30,8 @@ There are so many programming languages, this repo is used for tracking daily pr
 
   - searchFrequency.py python class test.
 
+  - localDbErr.py read csv file test.
+
 - rust
   
   - demo1 say hello & function grammar.
