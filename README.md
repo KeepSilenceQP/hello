@@ -32,6 +32,8 @@ There are so many programming languages, this repo is used for tracking daily pr
 
   - localDbErr.py read csv file test.
 
+  - localDbErrByPlatform.py dictionary nest & exception raise.
+
 - rust
   
   - demo1 say hello & function grammar.
