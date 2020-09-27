@@ -36,4 +36,4 @@ There are so many programming languages, this repo is used for tracking daily pr
 
 - rust
   
-  - demo1 say hello & function grammar.
+  - demo1 "hello world".
