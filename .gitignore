@@ -174,5 +174,5 @@ hs_err_pid*
 
 *.DS_Store
 
-
-rust/demo1/src/main
+rust/demo1/doc
+rust/demo1/src/build
