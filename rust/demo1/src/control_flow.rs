@@ -18,7 +18,8 @@ fn main() {
     }
 
     // 循环标签.
-    let mut arr = [[1, 2, 3], [4, 5, 6], [6, 7, 8]];
+    let mut arr = [[1, 2, 3], [4, 5, 6], [6, 7, 8]]; // 此种定义形式, 若少一列, 报错:
+    // expected an array with a fixed size of 3 elements, found one with 2 elements
     'outer: for subArr in &arr {
         'inner: for i in subArr {
             println!("{}", &i);

@@ -19,11 +19,11 @@ fn max(a: i32, b: i32) -> i32 {
     }
     // return b;
     // b // error, if-else 作为表达式每个分支返回值的类型需要一致, 同时也是整体的返回值类型.
-         // 直接这样写, 上面缺少了 else 分支返回值, 用空元组类型补齐, 导致返回类型不一致问题.
+         // 直接这样写, if 语句缺少了 else 分支返回值, 用空元组类型补齐, 导致返回类型不一致问题.
 }
 
 fn newMax(a: i32, b: i32) -> i32 {
     // return if a > b { a } else { b };
-    if a > b { a } else { b }
+    if a > b { a } else { b } // 注意没有分号哦～
     // if a > b a else b // error, 必须有 block.
 }
